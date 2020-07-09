@@ -247,7 +247,7 @@ html{
 }
 
 .section-title{
-    margin: 0;
+    margin: 09;
     font-weight: 300;
     width: 100%;
     text-align: center;
@@ -257,6 +257,64 @@ html{
 .section-anchor{
     position: relative;
     top: -15vh;
+}
+
+/* Single Article */
+.article-body{
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+}
+.article-section{
+    font-family: var(--kicker-text);
+    text-align: center;
+    color: #a71d21;
+    user-select: none;
+}
+.article-hed{
+    font-family: var(--hed-text);
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+    
+}
+.hed-underline{
+    width: 6em;
+    border-top: 2px solid #a71d21;
+}
+.article-byline{
+    font-family: var(--kicker-text);
+    text-align: center;
+}
+.article-featured-image{
+    width: 60%;
+    margin: 0 20%;
+    border: 2px solid black;
+}
+.body-text{
+    width: 60%;
+    margin: 1em 20%;
+    font-size: 1.3em;
+    font-family: var(--hed-text);
+}
+.image-right{
+    float: right;
+    width: 40%;
+    margin: 1em;
+}
+.article-footer-hed{
+    font-family: var(--hed-text);
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+}
+.article-footer{
+    margin-top: 5vh;
+    width: 60%;
+}
+.article-footer .box-default{
+    height: 40vh;
 }
 @media screen and (max-width: 1000px){
     .box-default, .box-vertical{
