@@ -1,10 +1,11 @@
+var logoHeight = document.querySelector('.n3-logo').offsetHeight;
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.querySelector('.homepage-navbar').style.top = "0";
   } else {
-    document.querySelector('.homepage-navbar').style.top = "-50vh";
+    document.querySelector('.homepage-navbar').style.top = "-8vw";
   }
   prevScrollpos = currentScrollPos;
 }
@@ -22,3 +23,4 @@ document.querySelector('.schedule-clickout').onclick =  function(){
 document.querySelector('#schedule-box').onclick =  function(){
     toggleSchedule();
 }
+
